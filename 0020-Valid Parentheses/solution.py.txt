@@ -11,7 +11,7 @@ class Solution:
                 if stack:
                     top_element=stack.pop()
                 else:
-                    return #
+                    top_element='#'
                 if pairs[char]!=top_element:
                     return False
             else:
